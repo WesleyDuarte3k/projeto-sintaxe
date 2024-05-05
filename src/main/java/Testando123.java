@@ -157,7 +157,7 @@ public class Testando123 {
 	public static Integer acionaMenuLogado(Usuario usuario) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("-------------------------------------------------");
-		System.out.println("Bem vindo " + usuario +"!");
+		System.out.println("Bem vindo " + usuario.getNome() +"!");
 		System.out.println("O que deseja fazer?");
 		System.out.println("    0. Encerrar");
 		System.out.println("    2. Depositar");
